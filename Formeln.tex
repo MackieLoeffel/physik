@@ -14,10 +14,17 @@
 \section{Fehler}
 \label{sec:fehler}
 
+\begin{itemize}
+\item Gaußkurve:
+  $H(x) =
+  \frac{1}{\sqrt{2\pi\sigma^{2}}}e^{-\frac{(x-x_{0})^{2}}{2\sigma^{2}}}$
+\item Mittelwert: $\overline{x} = \frac{1}{N}\sum_{i=1}^N x_i$
+\item $\sigma$: Mittlerer Fehler einer Einzelmessung $\sigma \approx \sqrt{\frac{1}{N-1}\sum^N_{i=1}(x_i - \overline{x})^2} = \sigma_M $
 
-Gaußkurve: $H(x) = \frac{1}{\sqrt{2\pi\sigma^{2}}}e^{-\frac{(x-x_{0})^{2}}{2\sigma^{2}}}$
-
-...
+\item $\Delta x = \frac{\sigma_M}{\sqrt{N}}$,
+  Messergebnis: $x = \overline{x} \pm \Delta x$
+\item Fehlerfortpflanzungsgesetz...
+\end{itemize}
 
 \section{Geschwindigkeit}
 \label{sec:geschwindigkeit}
@@ -57,6 +64,7 @@ Gaußkurve: $H(x) = \frac{1}{\sqrt{2\pi\sigma^{2}}}e^{-\frac{(x-x_{0})^{2}}{2\si
 \item Gleitreibung: $|\vec{F}_G| = \mu_G |\vec{F}_N|$, $\mu_G < \mu_H$
 \item Rollreibung: $|\vec{F}_R| = \mu_R |\vec{F}_N|$ ???
 \item Gravitationskraft der Erde: $\vec{F}(\vec{r}) = -G\frac{mM_E}{r^2} \frac{\vec{r}}{|\vec{r}|}$
+\item Impuls: $\vec{p} = m \vec{v}$
 \item Newtonsche Gesetze...
 \item Kraft erzeugt Impulsänderung: $\Delta \vec{p} = \int_{t_1}^{t_2}\vec{F}(t)dt$
 \item Umgekehrt: $\frac{d\vec{p}}{dt} = \vec{F}_{ext}$
